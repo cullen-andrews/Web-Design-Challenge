@@ -1,3 +1,44 @@
 .navbar-collapse {
     background-color: white;
 }
+
+/* .navbar {
+    border: 5px solid black:
+
+} */
+
+/* change navbar background */
+nav.navbar {
+    background: transparent;
+  }
+  /* change navbar-brand color */
+  .navbar a.navbar-brand {
+    color: white;
+    background-color: green;
+    padding: 4px;
+  }
+  /* change navbar-brand color on hover */
+  .navbar a.navbar-brand:hover {
+    color: white;
+    background-color: rgb(1, 66, 1);
+  }
+  /*  change navbar li colors, also active one but not disabled one */
+  .navbar ul.navbar-nav li.nav-item a.nav-link {
+    color: black;
+  }
+  /* change navbar-toggler inside lines color (stroke) */
+  .navbar-light span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    color: white;
+  }
+  /* change hamburger button border color */
+  button.navbar-toggler.navbar-toggler-right {
+    border-color: yellow;
+    color: black;
+  }
+  /* change navbar background on collapse */
+  @media (max-width: 991px) {
+    nav.navbar {
+      background: green;
+    }
+  }
