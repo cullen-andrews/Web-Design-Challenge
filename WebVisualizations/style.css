@@ -1,11 +1,15 @@
+p {
+    padding: 3px;
+    margin: 10px;
+}
+
+
 .navbar-collapse {
     background-color: white;
 }
 
-/* .navbar {
-    border: 5px solid black:
-
-} */
+/* Template for navbar adjustments below inspired by Stack Overflow user Syden
+at https://stackoverflow.com/questions/41896043/bootstrap-4-collapsed-navbar-background-color/41896551*/
 
 /* change navbar background */
 nav.navbar {

@@ -37,10 +37,10 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         <a class="dropdown-item" href="v1.html">Raw Image</a>
-        <a class="dropdown-item" href="v2.html">Masking Dust on the CCD</a>
+        <a class="dropdown-item" href="v2.html">Masking Dust and Foreground Stars</a>
         <!-- <div class="dropdown-divider"></div> -->
-        <a class="dropdown-item" href="v3.html">Masking Foreground Stars</a>
-        <a class="dropdown-item" href="v4.html">Smoothed Galaxy Image</a>
+        <a class="dropdown-item" href="v3.html">Smoothed Galaxy Image</a>
+        <a class="dropdown-item" href="v4.html">Galaxy Region</a>
         </div>
       </li>
 
@@ -68,9 +68,10 @@
 
 
   <body>
-    <h1>Header</h1>
-    <p>Paragraph</p>
+    <h1>UV Observations of Disk Galaxies</h1>
+    <p>We pointed the 32-inch telescope at Pine Mountain Observatory at some galaxies which had recently had recently been categorized as extended ultraviolet disk galaxies (or not) by researchers using NASA's GALEX ultraviolet space telescope. I wanted to investigate whether XUV disks, as they are called, looked any different from non-XUV disks using the relatively primitive instruments at Pine Mountain.</p>
 
+    <p>Using IRAF, I generated pixel masks to account for dust on the CCD and cosmic rays. Then I used Source Extractor to identify foreground stars and mask them as well. Using IRAF, I smoothed the galaxy's images by replacing the masked pixels with median values of the local surrounding pixels. The images were all taken through a Johnson U-band filter, so I investigated the resulting surface brightness angular diameters at the faintest detectable isophotes to see what differences there may be between XUV and non-XUV disk galaxies</p>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
